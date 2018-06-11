@@ -1,15 +1,15 @@
 // JavaScript Document
     
-  var text = "Láska je nejsilnìjší pocit a umí zázraky.\nKlikni na OK.";
+  var text = "LÃ¡ska je nejsilnÄ›jÅ¡Ã­ pocit a umÃ­ zÃ¡zraky.\nKlikni na OK.";
   alert(text);
   
   
 function mouseOver(){
-  vek = prompt("Zadej svùj vìk a zjistíš, jakı mùe mít tvé tìlo prùmìrnı potenciál, bıt na této planetì Zemi.") ;
+  vek = prompt("Zadej svÅ¯j vÄ›k a zjistÃ­Å¡, jakÃ½ mÅ¯Å¾e mÃ­t tvÃ© tÄ›lo prÅ¯mÄ›rnÃ½ potenciÃ¡l, bÃ½t na tÃ©to planetÄ› Zemi.") ;
   var vypocet = 225 - vek;
-  var text2 = "Jak by se ti líbílo, kdyby si na planetì Zemi mohl proít ještì ";
+  var text2 = "Jak by se ti lÃ­bÃ­lo, kdyby si na planetÄ› Zemi mohl proÅ¾Ã­t jeÅ¡tÄ› ";
   var text3 = " let?";
-  var text4 = "Kdo nechci nic vìdìt, nikem se neposune a zakrní.";
+  var text4 = "Kdo nechci nic vÄ›dÄ›t, nikem se neposune a zakrnÃ­.";
   if (vek > 0){
   
     alert(text2+vypocet+text3);
@@ -22,5 +22,5 @@ function mouseOver(){
   
   } 
    
-  var textSpodni = "\nVeškerı obsah na tìchto stránkách je volnì šíøitelnı a publikovatelnı. Prosím, šiøte jej :-)" ;
-  document.write(textSpodni);
+  var textSpodni = "\nVeÅ¡kerÃ½ obsah na tÄ›chto strÃ¡nkÃ¡ch je volnÄ› Å¡Ã­Å™itelnÃ½ a publikovatelnÃ½. ProsÃ­m, Å¡iÅ™te jej :-)" ;
+  document.write(textSpodni); 
