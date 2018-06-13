@@ -1,4 +1,5 @@
 /* CSS Document */
+@charset "UTF-8";
 
 body{
 
@@ -6,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;  */
     
-    background: linear-gradient(to right, black, yellow);
+    background: linear-gradient(to right, blue, pink);
     color:white;
 }
 
